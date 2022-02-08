@@ -5,18 +5,18 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Varela+Round&display=swap" rel="stylesheet"> 
 	<title>Mindent az ételért!! Nomnom!! Főszerepben az epres libamáj!! Minden ami akciós a teszkóban!! rlunk: kontakt: donate:	</title>
 
+	<!-- --------fonts----------- -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;600;700&family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 	<script src="script.js"></script>
-
 </head>
 <body>
 	<div id="root">
-		<div class="mukodjbazdmeg">
+		<header>
 			<img class="logo" src="images/logo.png" alt="logo">
 			<nav>
 				<ul>
@@ -27,23 +27,21 @@
 					<li> <a href="#contact"> Elérhetőségeink </a> </li>
 				</ul>
 			</nav>
-			<button>soafiaojfoi</button>
-		</div>	
+			<a href="#cta">Segíts te is!</a>
+		</header>	
 		<section id="welcome">
-			<!-- <div class="slide">
-				<div class="numbertext"> 1 / 3 </div>
-				<img src="images/csoportkep.jpg" style="width:100%">
+			<div class="show">
+				<button id="leftBtn" class="clickable">&larr;</button>
+				<img src="images/csoportkep2.jpg" id="img1" class="noImg">
+				<img src="images/csoportkep.png" id="img2" class="showImg">
+				<img src="images/menza.jpg" id="img3" class="noImg">
+				<button id="rightBtn" class="clickable">&rarr;</button>
+				<div class="welcometext">
+					<p class="text1">Ételt az életért</p>
+					<p class="text2">közhasznú alapítvány</p>
+				</div>
+				<a href="#cta">Segíts Te is!</a> 
 			</div>
-			<div class="slide">
-				<div class="numbertext"> 2 / 3 </div>
-				<img src="images/csoportkep2.jpg" style="width:100%">
-			</div>
-			<div class="slide">
-				<div class="numbertext"> 3 / 3 </div>
-				<img src="images/menza.jpg" style="width:100%">
-			</div>
-			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  			<a class="next" onclick="plusSlides(1)">&#10095;</a> -->
 		</section>
 
 		<section id="philosophy">
@@ -52,45 +50,51 @@
 
 
 		<section id="about">
-			<div class="flipOuter">
-				<div class="flipContainer">
-					<div class="flipFront">
-						<img src="https://freepikpsd.com/file/2019/10/tomato-png-7-Transparent-Images.png" alt="Tomato">
-						<h1>Mrs Tomato</h1>
-						<p>I am a very big tomato.</p>
-					</div>
-					<div class="flipBack">
-						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/1d355705-5d14-4acf-922e-bfe711ebc0d6-profile_image-300x300.png" alt="Yolo">
-						<h1>Mrs Tomato</h1>
-						<p>Very happy</p>
-					</div>
-				</div>
-			</div>
-			<div class="flipOuter">
-				<div class="flipContainer">
-					<div class="flipFront">
-						<img src="https://freepikpsd.com/file/2019/10/tomato-png-7-Transparent-Images.png" alt="Tomato">
-						<h1>Ms Tomato</h1>
-						<p>I am a very small tomato.</p>
-					</div>
-					<div class="flipBack">
-						<img src="https://static-cdn.jtvnw.net/jtv_user_pictures/1d355705-5d14-4acf-922e-bfe711ebc0d6-profile_image-300x300.png" alt="Yolo">
-						<h1>Ms Tomato</h1>
-						<p>Very happy</p>
+			<p class="title">Rólunk</p>
+			<div class="flipCards">
+				<div class="flipOuter">
+					<div class="flipContainer">
+						<div class="flipFront">
+							<img src="images/bemutatkozas.jpg" alt="Tomato">
+							<p class="title">Bemutatkozás</p>
+							<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil tempora nam incidunt, alias voluptas laboriosam reiciendis, sapiente, vel nobis ad non! Praesentium ipsa dolorem laudantium incidunt ea doloribus asperiores iste. </p>
+						</div>
+						<div class="flipBack">
+							<h2>Alapítványunk</h2>
+							<p>Az Ételt az Életért Közhasznú Alapítvány (továbbiakban Alapítvány) szociális étkeztetés népkonyha keretében nyújtott ellátás szakmai programja a személyes gondoskodást nyújtó szociális intézmények szakmai feladatairól és működésük feltételeiről szóló 1/2000. (I. 7.). SZCSM rendelet 5/A. § (1) bekezdése és a helyi sajátosságok figyelembevételével készült.</p>
+							<h2 class="borderTop">Céljaink</h2>
+							<p>Alapítványunk célja, hogy ellátási területén élő állampolgárok kiváló minőségű alapanyagokból készült vegetáriánus meleg ételhez jussanak népkonyhai szolgáltatásunk keretében. A szakmai program célja, hogy meghatározza a vonatkozó jogszabályok, az egyedi sajátosságok alapján az Alapítvány szakmai tevékenységét, ennek érdekében a szolgáltatás célját, feladatát, különösen a megvalósítani kívánt program konkrét bemutatását, a létrejövő kapacitások, a nyújtott szolgáltatáselemek, tevékenységek leírását, a más intézményekkel történő együttműködés módját, a feladatellátás szakmai tartalmát, módját, a biztosított szolgáltatások formáit, körét, rendszerességét, a tartalmát, az ellátás igénybevételének módját, a szolgáltatásról szóló tájékoztatás módját.</p>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="flipOuter">
-				<div class="flipContainer">
-					<div class="flipFront">
-						<img src="https://freepikpsd.com/file/2019/10/tomato-png-7-Transparent-Images.png" alt="Tomato">
-						<h1>Mr Tomato</h1>
-						<p>I am a very huge tomato.</p>
+				<div class="flipOuter">
+					<div class="flipContainer">
+						<div class="flipFront">
+							<img src="images/tevekenyseg.jpg" alt="Tomato">
+							<p class="title">Tevékenységeink</p>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil tempora nam incidunt, alias voluptas laboriosam reiciendis, sapiente, vel nobis ad non! Praesentium ipsa dolorem laudantium incidunt ea doloribus asperiores iste.</p>
+						</div>
+						<div class="flipBack">
+							<h2>Étel szolgáltatás</h2>
+							<p>Szegényélelmezési program keretében Budapesten naponta több mint 500 főre szolgálnak fel meleg ebédet, kenyeret, innivalót, idénygyümölcsöt, zöldség alapanyagokat, és pékárut, alkalmanként édességet, egyéb kiegészítő ételeket. </p>
+							<h2 class="borderTop">Úgyse olvassa senki</h2>
+							<p>Emellett családsegítő szolgáltatás keretében a szervezet vállalta, hogy Budapest III. kerületében a helyi Családi Tanácsadó és Gyermekvédelmi Központtal együttműködésben naponta akár 400 adag meleg ebédet, pékárut, gyümölcsöt, zöldséget, egyéb kiegészítőket oszt szét. Ünnepi ételosztás, lakásotthonos gyermekek élelmezése, iskolaétkeztetési támogatása és katasztrófahelyzetek esetén rendkívüli élelmezési segéllyel segítik a rászorulókat a megfelelő élelmezéshez való hozzájutáshoz.</p>
+						</div>
 					</div>
-					<div class="flipBack">
-						<img src="https://cdn.pixabay.com/photo/2020/06/26/18/32/tomatoes-5343599_1280.png" alt="Slice">
-						<h1>Mr Tomato</h1>
-						<p>Ded</p>
+				</div>
+				<div class="flipOuter">
+					<div class="flipContainer">
+						<div class="flipFront">
+							<img src="images/nepkonyha.jpg" alt="Tomato">
+							<p class="title">Népkonyha</p>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil tempora nam incidunt, alias voluptas laboriosam reiciendis, sapiente, vel nobis ad non! Praesentium ipsa dolorem laudantium incidunt ea doloribus asperiores iste.</p>
+						</div>
+						<div class="flipBack">
+							<h2>Tomato</h2>
+							<p>A népkonyha alkalmi jelleggel és helyben fogyasztással legalább napi egyszeri egy tál meleg ételt biztosít azoknak a szociálisan rászorult személyeknek, akik más étkeztetési formát nem vesznek igénybe. Emellett van lehetőség mobil népkonyhai ellátásra, melynek a lényege, hogy ha van szerződés egy adott településsel, ahol nem tudnak helyet biztosítani, akkor a szervezet megoldja az étel osztását. </p>
+							<h2 class="borderTop">Úgyse olvassa senki</h2>
+							<p>Többen visznek ételt hozzátartozóiknak, családtagjaiknak is. Igen nagy számban fordulnak elő közöttük nyugdíjasok, akik nem képesek fenntartani magukat a havonta befolyó nyugdíjukból, sokuk ezért fűtetlen lakásban, a szükséges gyógyszerek beszerzése nélkül él. Mindennapi jelenség a szüleikkel sorban álló gyermekek jelenléte. Meglepően sok az elhelyezkedni hosszú ideje képtelen munkanélküli – erre igen gyakran panaszkodnak a sorban állók. Akikről biztosan tudható, hogy hajlék nélkül él, a klienskör talán 30%-át teszi ki. Az ellátottak zöme más ellátásban minimálisan részesülő, a meglévő ellátórendszerből valamilyen oknál fogva kiszoruló ember, számukra ezért a mindennapi meleg étel szinte életmentő jelentőségű.</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -98,12 +102,70 @@
 
 		
 		<section id="cta">
-		
+			<div class="cta">
+				<p class="title">Önkéntes munka</p>
+				<span></span>
+				<p class="text"> Ha segíteni szeretnél az ételosztásban, vagy bármi másban, töltsd ki a lentebb látható adatlapot. Amennyiben a Karácsonyi / Húsvéti / Gyermeknapi ételosztásban kívánsz segíteni, hívj minket a +36 30 684-6861-es telefonszámon. Várjuk jelentkezésed!</p>
+			</div>
+			<form action="">
+				<input placeholder="Név" type="text" required>
+				<input placeholder="E-mail" type="text" required>
+				<input placeholder="Telefonszám" type="tel" pattern="[0-9]{11}" required>
+				<input placeholder="Képességeim, ismereteim" type="text" required>
+				<button>Tovább</button>
+			</form>
 		</section>
 
 
 		<section id="contact">
-			
+			<table class="table" id="table" style="height: 800px"; width="600px"; border="1"; align="center";>
+				<tbody>
+					<tr>
+						<th scope="row">
+							<div align="left">Név:</div>
+						</th>
+						<td>Ételt az Életért Közhasznú Alapítvány</td>
+					</tr>
+					<tr>
+						<th scope="row">
+							<div align="left">Cím:</div>
+						</th>
+						<td>1039 Budapest, Lehel u. 15.</td>
+					</tr>
+					<tr>
+						<th scope="row">
+							<div align="left">Telefonszám:</div>
+						</th>
+						<td>+36 30 684 6861; +36 30 678 3217</td>
+					</tr>
+					<tr>
+						<th scope="row">
+							<div align="left">E-mail:</div>
+						</th>
+						<td><a href="mailto:info@karitativ.hu">info@karitativ.hu</a></td>
+					</tr>
+					<tr>
+						<th scope="row">
+							<div align="left">Adószám:</div>
+						</th>
+						<td>18095575-1-41</td>
+					</tr>
+					<tr>
+						<th scope="row">
+							<div align="left">Bankszámlaszám:</div>
+						</th>
+						<td>MKB 10300002-10631840-49020019<br><br>IBAN HU55 1030 0002 1063 1840 4902 0019</td>
+					</tr>
+				</tbody>
+			</table>
+			<div id="googlemap">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2691.1637931370824!2d19.04586799713891!3d47.58405610425456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741d9c1a2f85883%3A0xc2c4b99f371512e6!2zw4l0ZWx0IGF6IMOJbGV0w6lydCBLw7Z6aGFzem7DuiBBbGFww610dsOhbnk!5e0!3m2!1shu!2shu!4v1644330507022!5m2!1shu!2shu" width="600" height="800" style="border: 4px solid #639463;" allowfullscreen="" loading="lazy"></iframe>
+			</div>
+			<div class="socialicons">
+				<a href="https://www.facebook.com/etelosztas"target="_blank" title="Facebook"><img class="socialicon" src="images/fb.png"></a> 
+		 		<a href="https://twitter.com/ffxiv" target="_blank" title="Twitter"> <img class="socialicon" src="images/twitter.png"></a> 
+				<a href="https://instagram.com/ffxiv" target="_blank" title="Instagram"> <img class="socialicon" src="images/instagram.png"></a>
+			</div>
 		</section>
 
 	</div>
