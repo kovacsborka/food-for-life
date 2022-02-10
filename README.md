@@ -1,9 +1,7 @@
-# Pretty Simple Web server written in Node.js
+A Krisna-hívők humanitárius programját 1974-ben A.C. Bhaktivedanta Swami Prabhupáda alapította, amikor arra lett figyelmes, hogy a templom háta mögött kisgyerekek hadakoznak az ebédmaradékok megszerzéséért. Mivel a vasinava világvallás egyik alapvető erkölcsi elve a könyörületesség, Swami arra kérte tanítványait, hogy vállaljanak felelősséget a rászorulók étkezési problémáinak megoldásáért.
 
-You can use this repository as a template for your repository or copy the files into your repository manually
+Mottójuk: „Testi-lelki egészség”, hisz mindennapos tevékenységük során célunk túlmutat a gyomor megtöltésén. Azon túl, hogy a meleg étel kézzelfogható segítséget jelent egyes embereknek, társadalmunk általános életminőségén, táplálkozási szokásain, az egymás iránti tolerancia bemutatása által kívánnak javítani.
 
-1. Open a new terminal (eg. in VS Code when your repository's directory opened)
-2. Run with the following command: `node backend/server.js` (Make sure that you are in the right directory.)
-3. If you don't need it stop it with `Control + C` keycommand.
+A Food for Life (FFL), vagyis Ételt az életért nemzetközi program a gyors fejlődést követően jelenleg 6 kontinensen, több mint 60 országban, 1000 önkéntes segítségével, az évtizedek során 100 milliónál is több adag ételt juttatott a nélkülözőknek. Világszerte ingyenkonyhákat, mozgókonyhákat, étel-házhozszállító szolgálatokat, és sok egyéb tevékenységet folytat és üzemeltet, s így a naponta kiosztott ételek adagszáma meghaladja a százezret.
 
-You can write your frontend code (`HTML, CSS, JS`) into the `frontend` directory.
+Az alapítvány célja, hogy ellátási területén élő állampolgárok kiváló minőségű alapanyagokból készült vegetáriánus meleg ételhez jussanak népkonyhai szolgáltatásunk keretében. A szakmai program célja, hogy meghatározza a vonatkozó jogszabályok, az egyedi sajátosságok alapján az Alapítvány szakmai tevékenységét, ennek érdekében a szolgáltatás célját, feladatát, különösen a megvalósítani kívánt program konkrét bemutatását, a létrejövő kapacitások, a nyújtott szolgáltatáselemek, tevékenységek leírását, a más intézményekkel történő együttműködés módját, a feladatellátás szakmai tartalmát, módját, a biztosított szolgáltatások formáit, körét, rendszerességét, a tartalmát, az ellátás igénybevételének módját, a szolgáltatásról szóló tájékoztatás módját.
