@@ -36,13 +36,10 @@ function loadEvent(){
                 count++;
             }
         } 
-     
     }
 
     document.getElementById('leftBtn').addEventListener("click", function(){ changeImage("leftBtn")});
     document.getElementById('rightBtn').addEventListener("click", function(){ changeImage("rightBtn")});
-    
+};
   
-  };
-  
-  window.addEventListener('load', loadEvent);
+window.addEventListener('load', loadEvent);
