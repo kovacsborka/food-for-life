@@ -340,7 +340,7 @@ header .logo {
   display: flex;
   flex-direction: column;
   padding: 15px;
-  transform: rotateY(180deg);
+  transform: rotateY(180deg) ;
   background-color: #FEFAE0;
   text-align: left;
   border-radius: 5%;
@@ -366,7 +366,6 @@ header .logo {
 #about .flipOuter:hover .flipContainer {
   transform: rotateY(180deg);
 }
-
 
 /* -------------------- contacts ------------------- */
 
@@ -417,11 +416,6 @@ header .logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-direction: column; */
-  /* margin: 150px; 
-  align-items: center;
-  justify-content: space-around; */
-  /* width: 80%; */
 }
 
 .cta {
@@ -443,7 +437,6 @@ header .logo {
 #cta p.text {
   font-size: 25px;
   max-width: 500px;
-  /* margin-top: 60px; */
   line-height: 50px;
 }
 
